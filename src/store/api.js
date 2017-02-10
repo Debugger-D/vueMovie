@@ -16,7 +16,7 @@ export const API_TYPE = {
 export function fetch(url) {
 
   return new Promise((resolve, reject)=> {
-    axios.get(HOST + url)
+    axios.get(url)
         .then(response => {
           resolve(response.data);
         })
@@ -29,7 +29,7 @@ export function fetchItemByType(type) {
 
 
 export function fetchMoviesByType(type, start=0, count=20) {
-  return fetchItemByType(`movie/${type}?start=${start}&count=${count}`)
+  return fetchItemByType(`api/movie/${type}?start=${start}&count=${count}`)
 }
 
 export function fetchMovieById(id) {
