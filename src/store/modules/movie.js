@@ -1,5 +1,5 @@
 /**
- * Created by superman on 2016/12/14.
+ * Created by jiazhenshan on 2016/2/14.
  */
 import * as types from '../types';
 import {fetchMoviesByType, fetchSearchMovies, fetchMovieById} from '../api';

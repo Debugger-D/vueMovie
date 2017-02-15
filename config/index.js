@@ -26,7 +26,7 @@ module.exports = {
         target: 'http://api.douban.com/v2',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': '/api'
+          '^/api': ''
         }
       }
     },

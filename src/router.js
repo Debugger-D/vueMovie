@@ -1,5 +1,5 @@
 /**
- * Created by superman on 2016/12/2.
+ * Created by jiazhenshan on 2016/2/13.
  */
 import App from  './App.vue'
 
